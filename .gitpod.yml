@@ -13,3 +13,6 @@ ports:
 vscode:
   extensions:
     - vsls-contrib.codetour
+
+image:
+  file: .gitpod.Dockerfile
