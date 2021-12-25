@@ -1,6 +1,6 @@
 tasks:
   - name: Dependencies & Dev Server
-    init: nvm install 14.08 | nvm use 14.08 | nvm alias default 14.08 | npm ci | npm start
+    init: nvm install 14.18.2 | nvm use 14.18.2 | nvm alias default 14.18.2 | npm ci | npm start
 
 # Ports to expose on workspace startup
 ports:
