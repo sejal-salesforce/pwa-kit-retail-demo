@@ -10,6 +10,7 @@ tests/lighthouse-reports/
 lighthouse/audit*
 cypress/screenshots
 cypress/videos
+./package-lock.json
 
 *.log
 
