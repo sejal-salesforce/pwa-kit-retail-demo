@@ -1,1 +1,18 @@
 node_modules
+build
+.nyc_output
+build.tar
+
+coverage
+tests/reports
+tests/screenshots
+tests/lighthouse-reports/
+lighthouse/audit*
+cypress/screenshots
+cypress/videos
+
+*.log
+
+# Generated files
+app/cache-hash-manifest.json
+app/loader-cache-hash-manifest.json

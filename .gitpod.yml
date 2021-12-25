@@ -1,0 +1,15 @@
+tasks:
+  - name: Installing Dependencies
+    init: npm ci
+  - name: Starting Dev Server
+    command: npm start
+
+# Ports to expose on workspace startup
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+# VSCode Extensions
+vscode:
+  extensions:
+    - vsls-contrib.codetour

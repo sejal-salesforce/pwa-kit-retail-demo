@@ -142,7 +142,8 @@
     "text-loader": "0.0.1",
     "tree-kill": "^1.2.1",
     "webpack": "^5.39.1",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "volta": "^1.0.5"
   },
   "optionalDependencies": {
     "vue": "^3.1.5"
@@ -186,37 +187,18 @@
   ],
   "l10n": {
     "supportedCurrencies": [
-      "GBP",
-      "EUR",
-      "CNY",
-      "JPY"
+      "USD"
     ],
-    "defaultCurrency": "GBP",
+    "defaultCurrency": "USD",
     "supportedLocales": [
       {
-        "id": "en-GB",
-        "preferredCurrency": "GBP"
-      },
-      {
-        "id": "fr-FR",
-        "preferredCurrency": "EUR"
-      },
-      {
-        "id": "it-IT",
-        "preferredCurrency": "EUR"
-      },
-      {
-        "id": "zh-CN",
-        "preferredCurrency": "CNY"
-      },
-      {
-        "id": "ja-JP",
-        "preferredCurrency": "JPY"
+        "id": "en-US",
+        "preferredCurrency": "USD"
       }
     ],
-    "defaultLocale": "en-GB"
+    "defaultLocale": "en-US"
   },
   "volta": {
-    "node": "14.18.2"
+    "node": "^14.18.2"
   }
 }
