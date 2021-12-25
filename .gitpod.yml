@@ -1,8 +1,6 @@
 tasks:
-  - name: Installing Dependencies
-    init: npm ci
-  - name: Starting Dev Server
-    command: npm start
+  - name: Dependencies & Dev Server
+    init: nvm install 14.08 | && nvm use 14.08 | && nvm alias default 14.08 | npm ci | npm start
 
 # Ports to expose on workspace startup
 ports:
@@ -14,5 +12,5 @@ vscode:
   extensions:
     - vsls-contrib.codetour
 
-image:
-  file: .gitpod.Dockerfile
+# image:
+#   file: .gitpod.Dockerfile
