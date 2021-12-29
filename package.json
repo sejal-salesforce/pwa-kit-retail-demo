@@ -28,7 +28,7 @@
         },
         {
           "path": "ocapi",
-          "host": "zzte-053.sandbox.us02.dx.commercecloud.salesforce.com"
+          "host": "zzrf-001.sandbox.us01.dx.commercecloud.salesforce.com/"
         },
         {
           "path": "einstein",
@@ -198,6 +198,6 @@
     "defaultLocale": "en-US"
   },
   "volta": {
-    "node": "^14.18.2"
+    "node": "14.18.2"
   }
 }
