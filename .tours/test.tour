@@ -1,0 +1,27 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Change to your Commerce Cloud sandbox",
+  "steps": [
+    {
+      "file": "app/commerce-api.config.js",
+      "description": "Change to your Commerce Cloud sandbox by modifying these parameters. Use docs to know how to find the values in your sandbox - http://sfdc.co/pwa-kit",
+      "line": 3,
+      "selection": {
+        "start": {
+          "line": 3,
+          "character": 18
+        },
+        "end": {
+          "line": 10,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "package.json",
+      "description": "Don't forget to update the proxy configuration to match the new sandbox values too. Docs are here to help you with all you need to know: https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/configuration-options.html",
+      "line": 24
+    }
+  ],
+  "ref": "main"
+}
