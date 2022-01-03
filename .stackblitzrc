@@ -1,5 +1,4 @@
 {
   "installDependencies": true,
   "startCommand": "npm start"
-
 }
